@@ -1,0 +1,66 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenMES.Application", "src\OpenMES.Application\OpenMES.Application.csproj", "{F1A7ADCA-655E-DA14-0A8B-03A458D5B7E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenMES.Domain", "src\OpenMES.Domain\OpenMES.Domain.csproj", "{26F8F9BF-1368-23C4-2232-B9E600107F13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenMES.Api", "src\OpenMES.Api\OpenMES.Api.csproj", "{05D6ACCE-421E-95E6-DFEC-1FF3D7748C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenMES.Infrastructure", "src\OpenMES.Infrastructure\OpenMES.Infrastructure.csproj", "{87F20A48-FE70-047C-7CF9-86445479A53E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenMES.Domain.Tests", "tests\OpenMES.Domain.Tests\OpenMES.Domain.Tests.csproj", "{702F6E3B-7801-EA14-CBD5-EFD41D484313}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenMES.Application.Tests", "tests\OpenMES.Application.Tests\OpenMES.Application.Tests.csproj", "{F69234DE-5EB1-66AD-9ADA-77C046861791}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1A7ADCA-655E-DA14-0A8B-03A458D5B7E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1A7ADCA-655E-DA14-0A8B-03A458D5B7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1A7ADCA-655E-DA14-0A8B-03A458D5B7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1A7ADCA-655E-DA14-0A8B-03A458D5B7E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F8F9BF-1368-23C4-2232-B9E600107F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F8F9BF-1368-23C4-2232-B9E600107F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F8F9BF-1368-23C4-2232-B9E600107F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F8F9BF-1368-23C4-2232-B9E600107F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D6ACCE-421E-95E6-DFEC-1FF3D7748C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D6ACCE-421E-95E6-DFEC-1FF3D7748C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D6ACCE-421E-95E6-DFEC-1FF3D7748C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D6ACCE-421E-95E6-DFEC-1FF3D7748C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F20A48-FE70-047C-7CF9-86445479A53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F20A48-FE70-047C-7CF9-86445479A53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F20A48-FE70-047C-7CF9-86445479A53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F20A48-FE70-047C-7CF9-86445479A53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{702F6E3B-7801-EA14-CBD5-EFD41D484313}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{702F6E3B-7801-EA14-CBD5-EFD41D484313}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{702F6E3B-7801-EA14-CBD5-EFD41D484313}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{702F6E3B-7801-EA14-CBD5-EFD41D484313}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F69234DE-5EB1-66AD-9ADA-77C046861791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F69234DE-5EB1-66AD-9ADA-77C046861791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F69234DE-5EB1-66AD-9ADA-77C046861791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F69234DE-5EB1-66AD-9ADA-77C046861791}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1A7ADCA-655E-DA14-0A8B-03A458D5B7E2} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{26F8F9BF-1368-23C4-2232-B9E600107F13} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{05D6ACCE-421E-95E6-DFEC-1FF3D7748C18} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{87F20A48-FE70-047C-7CF9-86445479A53E} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{702F6E3B-7801-EA14-CBD5-EFD41D484313} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+		{F69234DE-5EB1-66AD-9ADA-77C046861791} = {0AB3BF05-4346-4AA6-1389-037BE0695223}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC82308F-2CB3-467A-A327-6443475F2DD9}
+	EndGlobalSection
+EndGlobal

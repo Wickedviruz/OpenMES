@@ -1,0 +1,3 @@
+{
+    "trust-lsp.runtime.controlEndpoint": "unix:///tmp/trust-debug.sock"
+}

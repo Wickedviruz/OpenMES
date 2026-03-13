@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/OpenMES.Api/OpenMES.Api.csproj" />
+    <Project Path="src/OpenMES.Application/OpenMES.Application.csproj" />
+    <Project Path="src/OpenMES.Domain/OpenMES.Domain.csproj" />
+    <Project Path="src/OpenMES.Infrastructure/OpenMES.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/OpenMES.Application.Tests/OpenMES.Application.Tests.csproj" />
+    <Project Path="tests/OpenMES.Domain.Tests/OpenMES.Domain.Tests.csproj" />
+  </Folder>
+</Solution>
