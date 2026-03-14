@@ -124,7 +124,7 @@ Future integrations may include:
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOURNAME/openmes.git
+git clone https://github.com/Wickedviruz/OpenMES.git
 cd openmes
 ```
 

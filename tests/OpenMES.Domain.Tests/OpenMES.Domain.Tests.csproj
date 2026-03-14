@@ -18,4 +18,8 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\OpenMES.Domain\OpenMES.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
